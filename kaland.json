@@ -1,0 +1,47 @@
+{
+    "cím": "Az Ítélet Labirintusa",
+    "":
+    {
+        "id":
+        {
+            "szint": "number",
+            "szoveg": "Termékazonosító",
+            "valasztas": true
+        },
+        "nev":
+        {
+            "type": "string",
+            "description": "Terméknév",
+            "required": true
+        },
+        "ar":
+        {
+            "type": "number",
+            "minimum": 0,
+            "required": true
+        },
+        "cimkek":
+        {
+            "type": "array",
+            "items":
+            {
+                "type": "string"
+            }
+        },
+        "keszlet":
+        {
+            "type": "object",
+            "properties":
+            {
+                "raktar":
+                {
+                    "type": "number"
+                },
+                "kereskedo":
+                {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}
