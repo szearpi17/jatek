@@ -1,0 +1,17 @@
+h1 = Harcos('Spartacus', 200, 30)
+h2 = Harcos('Herkules', 120, 40)
+
+
+kor = 1
+while not h1.harcol(h2): #ez csinálja a harcot
+  print(f'{kor}. kör:')
+  print(h1)
+  print(h2)
+  kor+=1
+
+if h1.getEletero()<1 and h2.getEletero()<1:
+  print('Mindeketten veszítettek!')
+elif h1.getEletero()<1:
+  print(f'Nyertes: {h2}')
+else:      
+   print(f'Nyertes: {h1}')
