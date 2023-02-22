@@ -1,0 +1,18 @@
+[
+    {
+        "szint" : 1,
+        "szöveg" : "Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyíláson át beszűrődő természetes világosságot. Innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észak felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz abba az irányba. Lapozz a 41-re.",
+        "akció" : {
+            "ugrás" : [41]
+        }
+    },
+    {
+        "szint" : 2,
+        "szöveg" : "A vízbe ugrasz, az áramlat azonban nagyon erős. Megpróbálsz a felszínen maradni, de ez nem könnyű. Lapozz a 148-ra",
+        "akció" : {
+            "ugrás": [
+                148
+            ]
+        }
+        }]
+    
