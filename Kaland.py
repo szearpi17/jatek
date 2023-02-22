@@ -1,14 +1,6 @@
 import random
-import json
 
-with open ("kaland.json", "r", )as f:
-    data = json.load(f)
-
-cards1 = data['cards']
-
-print("cards1")
-for cards in cards1:
-    print(f"{cards1['szöveg']}, {cards1['ugrás']}")
+print("Kalandjáték indítása...")
 
 # Játékos neve
 nev = input("Adja meg a játékos nevét: ")
