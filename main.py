@@ -32,14 +32,21 @@ tov = input("tovabbhaladashoz nyomja meg az 'ENTERT'")
 
 
 # Player stats
-player_hp = 100
-player_strength = 10
-player_luck = 5
+player_hp = random.randint(1,6)
+player_strength = random.randint(1,6)
+player_luck = random.randint(1,6)
+
+number = 12
+result = number + player_hp
+
+number1 = 6
+result1 = number1 + player_luck
+result2 = number1 + player_strength
 
 # Boss stats
-boss_hp = 150
-boss_strength = 20
-boss_luck = 10
+boss_hp = 5
+boss_strength = 1
+boss_luck = 4
 
 # Function to calculate damage done
 def calculate_damage(attacker_strength, defender_hp):
