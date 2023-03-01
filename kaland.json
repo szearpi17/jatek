@@ -487,58 +487,69 @@
     },
         {
       "sorszam": 54,
-      "szoveg": "",
+      "szoveg": "Ahogy földet érsz, csúnyán beütöd a térded. Vesztesz 2 ÉLETERŐ pontot. ",
       "akcio":
       {
+        "ero":[-2],
+        "tipus":"ugrás",
+        "ugras":[27]
 
+        
       }
     },
         {
       "sorszam": 55,
-      "szoveg": "",
+      "szoveg": "Semmit nem találsz. Visszatérsz az elágazáshoz, és keleti irányba folytatod az utad. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[31]
       }
     },
         {
       "sorszam": 56,
-      "szoveg": "",
+      "szoveg": "Ahogy kilépsz az alagútból, elámulsz a szemed elé táruló látványtól. Egy keskeny sziklaszirten állsz, nagyjából félúton az óriási barlangüreg alja és teteje között. A tovaszaladó víz csillogása elárulja, hogy a völgy mélyén egy folyó halad. Jobbodon egy rövid átjáró végén egy lefelé vezető lépcsősort látsz. Mivel ez az egyetlen módja a lejutásnak, óvatosan ereszkedni kezdesz rajta. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[27]
       }
     },
         {
       "sorszam": 57,
-      "szoveg": "",
+      "szoveg": "Egy alkóv mellett vezet el az utad, melyben három kis üveget látsz. Az elsőben tiszta, átlátszó, szagtalan folyadékot látsz és szagolsz. A másodikban aranyszínű anyag van, melynek enyhén édeskés az illata, míg a harmadik tartalma fakó zöld színű és kesernyés, csípős szaga van. Ha felhajtanád az első üveg tartalmát",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[139, 150, 197, 29]
       }
     },
         {
       "sorszam": 58,
-      "szoveg": "",
+      "szoveg": "Ahogy belépsz a szobába, a padlónak azon része, melyre ráléptél, lezuhan. Tedd, próbára SZERENCSÉD! ",
       "akcio":
       {
-
+        "tipus": "szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras": [176, 19]
       }
     },
         {
       "sorszam": 59,
-      "szoveg": "",
+      "szoveg": "Felemeled a piros Szinű könyvet és átfutod a tartalmát, remélve, hogy találsz benne valami hasznosat, amit felhasználhatnál, a labirintusból való kijutásra. A szöveg azonban sajnos ősi Elf nyelven íródott így egyetlen rúnáját sem érted. Ha még nem tetted, most belenézhetsz, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[104, 88, 10]
       }
     },
         {
       "sorszam": 60,
-      "szoveg": "",
+      "szoveg": "A híd épp elég ideig marad épen ahhoz. hogy átérj a túloldalra. Ahogy lelépsz róla, Összeomlik. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[76]
       }
     },
         {
@@ -562,34 +573,41 @@
     },
         {
       "sorszam": 63,
-      "szoveg": "",
+      "szoveg": "Mikor megbillentél, két tárgy kiesett a hátizsákodból (te választhatod ki, melyek legyenek ezek). Vesztesz 1 SZERENCSE pontot. Az északi járaton át folytatod az utad. ",
       "akcio":
       {
-
+        "tipus":"szerencsepróba",
+        "megjegyzes":["Nincs szerencséd!"],
+        "ugras":[52]
       }
     },
         {
       "sorszam": 64,
-      "szoveg": "",
+      "szoveg": "Ahogy leugrasz, hátizsákod beleakad valamibe, te pedig egy pillanatra elveszted az egyensúlyod, épp mikor földet érsz. Tedd próbára SZERENCSÉD! ",
       "akcio":
       {
-
+        "tipus": "szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras": [117, 186]
       }
-    },
+      },
         {
       "sorszam": 65,
-      "szoveg": "",
+      "szoveg": "Az ajtó egy nyirkos folyosóra vezet, mely először kelet felé fordul, végül pedig északra kanyarodik. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
       "sorszam": 66,
-      "szoveg": "",
+      "szoveg": "Egy lépcsősorhoz érsz, és már épp lefelé indulnál rajtuk, mikor a hátad mögött valami zaj veszélyre figyelmeztet. Megperdülsz, és egy alacsony, köpcös alakot pillantasz meg. Ocsmány arca undok vigyorra húzódik. Háta mögül előkap egy tüskés buzogányt, majd a hírhedt Sikító Szellemet is megszégyenítő csataüvöltéssel megpörgeti, és a karodba vágja. Vesztesz 1 ÉLETERŐ pontot. Meg kell küzdened vele.",
       "akcio":
       {
-
+        "tipus": "harc",
+        "ellenfel": [["Törpe", 8, 5]],
+        "ugras": [85]
       }
     },
         {
@@ -605,66 +623,75 @@
     },
         {
       "sorszam": 68,
-      "szoveg": "",
+      "szoveg": "Az alagút hamarosan jobbra fordul és egy ideig keletnek halad. Semmi akadályát nem látod annak, hogy te is ezt tedd. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
       "sorszam": 69,
-      "szoveg": "",
+      "szoveg": "Elérsz egy keletre letérő oldaljárathoz. Az előre haladó út, úgy tűnik, hirtelen véget ér, vagy élesen oldalra kanyarodik. Ha a keleti járattal próbálnál szerencsét, lapozz a 31-re Ha tovább mennél északra és megvizsgálnád a folyosó végét",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[31, 11]
       }
     },
         {
       "sorszam": 70,
-      "szoveg": "",
+      "szoveg": "Az ajtó egy kis szobába nyílik. Ahogy a nyílásban állsz, a fáklyák ragyogó fényében valami tiszta, vérvörös szín csillan meg Egy hatalmas rubin az, ami örök életedre gazdaggá tenne, ha ki tudnád juttatni a labirintusból. Hogyha a drágakőhöz lépnél és magadhoz vennéd, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[18, 106]
       }
     },
         {
       "sorszam": 71,
-      "szoveg": "",
+      "szoveg": "Ajkadhoz emeled a kis fiolát és megiszod a tartalmát. Meglepve tapasztalod, hogy a folyadék teljesen íztelen, de egészen felfrissít. Szentelt Víz volt benne, amit egy ősi Druida áldott meg. Az ezután következő harcok során 1-el megnövelheted majd Támadóerődet. Nyersz SZERENCSE pontot. Ha még nem próbáltad fel, és most ujjadra húznád a gyűrűt, lapozz, a 119-re. Ha fel szeretnéd venni a köpenyt, és eddig még nem tetted",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes": ["Szerencséd van!"],
+        "ugras":[84]
       }
     },
         {
       "sorszam": 72,
-      "szoveg": "",
+      "szoveg": "Az ajtó egy újabb alagútba nyílik, mely kelet-nyugati irányba halad. Tudod, hogy neked északra kellene továbbmenned, de most kénytelen vagy ezek közül választani és reménykedni, hogy jó helyen bukkansz majd ki. Nyugatra indulsz, és megkönnyebbülsz, mikor egy elágazáshoz érsz. Északra fordulsz, és sokkal nyugodtabban folytatod az utad. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[195]
       }
     },
         {
       "sorszam": 73,
-      "szoveg": "",
+      "szoveg": "Továbbra is nyugati irányba haladva észreveszed, hogy a járat egy kisebb szikla halomban ér véget. Csákány és ásó nélkül itt esélyed sem lenne átjutni. Ahogy megfordulsz, hogy visszatérj az előző elágazáshoz. egy sötétebb folt egy újabb észak felé vezető, alagút jelenlétét árulja el. Úgy döntesz erre mész tovább. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[174]
       }
     },
         {
       "sorszam": 74,
-      "szoveg": "",
+      "szoveg": "Átlépsz a két Iszapsárkány tetemen és a szükségesnél óvatlanabbul végigsietsz a keskeny úton. Egy rémisztő pillanatra megbillensz az egyik medence irányába, mikor lábad megcsúszik egy kődarabon, de végül némi kapálózás segítségével sikerül egy újabb lépést tenned, és valamivel stabilabb talajt érned. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[63]
       }
     },
         {
       "sorszam": 75,
-      "szoveg": "",
+      "szoveg": "Túl nehéz, vagy az ingatag építménynek, ami összetörik a lábad alatt. Egyenesen a vízbe zuhansz, és kénytelen vagy kiúszni belőle, hogy meg ne fulladj",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[148]
       }
     },
         {
@@ -679,26 +706,30 @@
     },
         {
       "sorszam": 77,
-      "szoveg": "",
+      "szoveg": "Mielőtt lehetőséged lenne előhúzni a kardodat, az öreg férfi felemeli, jobb kezét Mosolya eltűnik arcáról, hangja pedig, mely hirtelen felerősödik, megszólal a fejedben, ám ajkai közben nem mozognak. Ne próbálj meg ártani nekem. Erőm hatalmas és bármikor olyan tömör sziklává változtathatlak, mint egy oszlop a Nagyteremben. Ha nem törődsz a figyelmeztetésével és folytatod a támadást, lapozz a 135-re. Ha nálad van a szobor és válaszolni kívánsz a kérdésére, lapozz a 91-re. Ha nincs nálad, vagy nem vallod be, hogy megszerezted, úgy lapozz a 131-re",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[135,91, 131]
       }
     },
         {
       "sorszam": 78,
-      "szoveg": "",
+      "szoveg": "A számszeríj nem volt tökéletesen beállítva, így ahelyett, hogy halálos sebet okozott volna fejeden vagy nyakadon, a vesző csupán hal válladba áll bele elég mélyen. Lehetett volna rosszabb is, de még így is vesztesz 4 ÉLETERŐ pontot. Kirántod a lövedéket, szakítasz ruhádról némi gézt és szorosan bekötöd magad, hogy el ne vérezz. Hangosan átkozódva indulsz ismét észak felé, az egyetlen irányba, amerre még teheted. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ero":[-4],
+        "ugras":[89]
       }
     },
         {
       "sorszam": 79,
-      "szoveg": "",
+      "szoveg": "A keleti járat elég keskeny és sötét, és újabb leágazásba fut bele, ezúttal a balodon. Ha erre mennél tovább, északi irányba,",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[141, 122]
       }
     },
         {
@@ -712,26 +743,30 @@
     },
         {
       "sorszam": 81,
-      "szoveg": "",
+      "szoveg": "Olyan csendben lopakodsz élőre, amennyire csak tudsz, ám kardod véletlenül nekicsapódik a kőnek, és éles, csengő hangot ad ki. Tedd próbára SZERENCSÉD! ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes":["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[97, 138]
       }
     },
         {
       "sorszam": 82,
-      "szoveg": "",
+      "szoveg": "Sikerül levágnod az Iszapsárkány fejét, mely előtted hever, elzárva az utat a keskeny párkányon. Nem mered kézzel ellökni, mert a fején lévé nyúlványok még mindig azzal a furcsa, zöld színnel izzanak, amit korábban is láttál. Ennélfogva kardodat emelőként aládugva megemeled egy kicsit, hogy legurítsd a szegélyről. Belecsobban a sárba, ahol végső haláltusájában ismét püffedni kezd. Gyorsan elsietsz mellette, még mielőtt megint elzárná az utat, de már csak leeresztésének sípolását hallod, amint végleg távozik az élők sorából. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[52]
       }
     },
         {
       "sorszam": 83,
-      "szoveg": "",
+      "szoveg": "Az öreg arcra megkönnyebbülés ül ki. Kinyitja a fal egyik titkos rekeszét és elvesz egy bőrerszényt. Előrenyújtott kezedbe önti annak tartalmát, 27 Aranytallért és egy Gyémántot, amiket azonnal a hátizsákodba pakolsz. Ha most az északi falon álló ajtón át távozol, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[180, 17]
       }
     },
         {
@@ -758,10 +793,12 @@
     },
         {
       "sorszam": 86,
-      "szoveg": "",
+      "szoveg": "Az öreg arcra megkönnyebbülés ül ki. Kinyitja a fal egyik titkos rekeszét és elvesz egy bőrerszényt. Előrenyújtott kezedbe önti annak tartalmát, 27 Aranytallért és egy Gyémántot, amiket azonnal a hátizsákodba pakolsz. Ha most az északi falon álló ajtón át távozol,",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes":["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[190, 4]
       }
     },
         {
@@ -777,10 +814,11 @@
     },
         {
       "sorszam": 88,
-      "szoveg": "",
+      "szoveg": "A zöld könyvet kézzel írták, és valamiféle naplóra emlékeztet. Az utolsó bejegyzés, legnagyobb döbbenetedre, a te nevedet tartalmazza. Ez a próbára küldött bűnözök listája. Szerencsére egyelőre nem látsz ítéletet beleírva. Sikerül megállapítanod hogy mióta te beléptél, azóta nem küldtek újabb embert a próbám, ám előtted egy nappal korábban egy tolvaj lépett be, és az 6 neve mellett már ott szerepel a döntés: bűnös! Ha még nem tetted, most belenézhetsz ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[59,104,10]
       }
     },
         {
@@ -796,10 +834,11 @@
     },
         {
       "sorszam": 90,
-      "szoveg": "",
+      "szoveg": "Az ajtón benyitva vaksötét fogad. Ha szeretnél végig tapogatni a sötétben, lapozz a 167-re. Ha inkább távoznál innen",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[154]
       }
     },
         {
@@ -824,18 +863,19 @@
     },
         {
       "sorszam": 93,
-      "szoveg": "",
+      "szoveg": "Már félúton jársz lefelé, mikor vérfagyasztó üvöltés csapja meg a füledet. Ahogy feltekintesz, egy hatalmas madarat pillantasz meg, ami egy, a sziklafalon lévő ágról tekint le rád. Széles szányai egyetlen csapásával a levegőbe emelkedik, tesz egy kört a folyó felett, majd megindul feléd. Érzed, ahogy tenyered izzadni kezd a félelemtől. A kötél kicsúszik a kezeid közül, te pedig zuhanni kezdesz a talaj felé. A hatalmas madár diadalmas rikoltással kap el téged a levegőben, majd felrepül a fészkéhez és érzed, hogy esel- esel, egyenesen ocsmány kicsinyei közé, akik már türelmetlenül várják a következő etetést. Egyesével tépik ki végtagjaidat, majd mohón befalják. Kalandod it véget ér",
       "akcio":
       {
-
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 94,
-      "szoveg": "",
+      "szoveg": "Betekered ellenfeled saját ezüstszínű hálójába. Ezután megragadod a rubint és az ajtó felé indulsz. Már alig várod, hogy kikerülj abból a selyemmel bevont kriptából! A Pők hatalmas teteme, melyet ragacsos selyem- szálak borítanak, az út kellős közepén hever. Kénytelen vagy átmászni rajta, és az enyves massza érintésétől valósággal rosul leszel. Mikor végre eléred a kijáratot, meg hemperegsz a porban, hogy megszabadulj a ragacsos érzéstől. Koszos vagy és fáradt. Magad mögött hagyod a helyet és északnak indulsz. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[106]
       }
     },
         {
@@ -849,58 +889,67 @@
     },
         {
       "sorszam": 96,
-      "szoveg": "",
+      "szoveg": "Az alagút kanyarulata mögül túlvilági ragyogás árad. Ahogy a falra vetült játékot nézed, úgy érzed, a fény magától lüktet és változtatja a színét. Nagyon óvatosan fordulsz be a kanyarban, amin tul igen bizarr látvány fogad. Három nagyon alacsony, ezüstszínů, lebegő kopenybe öltözött alak táncol valamilyen rituális táncot a fény forrása körül. Az üreg falát itt mindenhol tükrök borítják, és a változó színek oda- vissza ugrálnak azok közt, a lüktető ragyogástól és szédülés tör rád. A forrás egy hatalmas kristály, mely egy magas talapzaton nyugszik, de képtelen vagy megállapítani, pontosan miféle kő is ez. Egyébként sincs idöd sokat spekulálni ezen, mivel az ezernyi tükörképnek köszönhetően az ala- kok felfigyelnek egy óvatlan mozdulatodra. A lények dühödten felkiáltva vetik rád magukat. Egy ellenfélként küzdj meg vele. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[191]
       }
     },
         {
       "sorszam": 97,
-      "szoveg": "",
+      "szoveg": "Kezed egyből a kardod markolatára teszed, hogy elállítsd a csengő hangot. A kutya mocorog egy kicsit, de nem ébred fel. Szíved a torkodban dobog, ahogy haladsz, de végül gond nélkül elérsz a túloldalra. Leemeled a kulcsot a szögről, csendesen kinyitod az ajtót és becsapod magad mögött. Miközben odakinn ráfondítod a kulcsot, a túloldalról félelmetes morgást és repedő fa hangja szűrődik át, ahogy az állat újra és újra nekiugrik. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[30]
       }
     },
         {
       "sorszam": 98,
-      "szoveg": "",
+      "szoveg": "Az ajtó ugyan zárva van, de a korábban talált kulccsal gond nélkül sikerül kinyitnod. Ahogy belépsz, két dárda repül elő az ajtóban levő egyik lyukból. Tedd próbára szerencsédet! ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes":["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[44, 8]
       }
     },
         {
       "sorszam": 99,
-      "szoveg": "",
+      "szoveg": "A fáklyák halovány fényében súlyos vasrácsot látsz a fal jobb oldalán. Zárva van, és bármennyire is erőlködsz, semmit nem látsz mögötte. Ha van nálad egy Bronz Kulcs, és azzal próbálod meg kinyitni a zárat",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[159, 68]
       }
     },
         {
       "sorszam": 100,
-      "szoveg": "",
+      "szoveg": "A szörnyeteg holtan hever előtted. Nyáladzó pofájának tartalmát gyorsan magába szívja a poros talaj. Karmai színaranyak egyesével letéped őket a hatalmas mancsról, majd zsebre vágod őket. Ezután leemeled a kulcsot a szögről, kinyitod az ajtót és távozol, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[30]
       }
     },
         {
       "sorszam": 101,
-      "szoveg": "",
+      "szoveg": " A sár felszíne domborodni kezd, és tompa pukkanás kíséretében egy óriási gázbuborék emelkedik ki belőle. Ahogy a felszín kisimulna, apró, zöld színű cikázó fények jelennek meg rajta. A foltocskák kiemelkednek, aljukból csápok nőnek ki, melyek percről percre hosszabbodnak. Végül egy Iszapsárkány óriási feje bakkan elő félig a nyálkás folyadék mélyéből! Most már látod, hogy a zöld fények, amiket korábban láttál valójában a lény fejéből kinövő csápok, melyek egészen addig szabadon lengeni látszanak, míg hirtelen mindegyik rád nem szegeződik. A hatalmas száj kinyílik, för- telmes szagú gáz tör elő belőle, ezután ellenfeled duzzadni kezd, ahogy levegővel szívja meg magát. Egyre csak nő és nő, míg végül kezded úgy érezni, hogy teljesen betölti a termet. Meg kell küzdened vele. Előhúzod kardodat, mely hirtelen elégtelennek tűnik ellenfeleddel szemben.",
       "akcio":
       {
-
+        "tipus":"harc",
+        "megjegyzes":["Győztes", "Nem gyöztél"],
+        "ugras":[82]
       }
     },
         {
       "sorszam": 102,
-      "szoveg": "",
+      "szoveg": "Miután felhajtod az üvegecsében levő italt, megdöbbenve tapasztalod, mennyivel jobban érzed most magad. Az üvegben a Szerenese Italának egy adagja volt. Növeld meg 1-el Kezdeti szerencsédet, majd állítsd vissza jelenlegi pontjaidat erre az új értékre. Folytatod a kúszást észak felé. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[169]
       }
     },
         {
@@ -914,34 +963,39 @@
     },
         {
       "sorszam": 104,
-      "szoveg": "",
+      "szoveg": "A kék könyv térképeket tartalmaz, és bár minden nevet Elföl írtak bele, a képen felismerni véled Analandot. Úgy tűnik, ez a mű tartalmazza azon városok, falvak, és ami még fontosabb, bányák helyzetét, melyekben drágakövet vagy nemesfémet találhatsz. Ha sikerülne magaddal vinned ezt a kötetet a felszínre, futármunkád sokkal jövedelmezőbbé és biztonságosabbá válhatna. Biztonságba helyezed hát kabátod egyik belső zsebébe. Mielőtt elhagynád a termet, még belenézhetsz a piros",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[59, 88, 10]
       }
     },
         {
       "sorszam": 105,
-      "szoveg": "",
+      "szoveg": "Döbbenten veszed észre, hogy köpenyed felfúvódik és felemel a lábadról. Lassan lebegsz le a talajra, és könnyedén érsz földet. Alig mered elhinni, mekkora szerencséd van." ,
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[27]
       }
     },
         {
       "sorszam": 106,
-      "szoveg": "",
+      "szoveg": "A járat továbbra is északnak tart, de hamarosan egy leágazást találsz, mely keletre tér le. Ha erre mennél tovább",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[179,153]
       }
     },
         {
       "sorszam": 107,
-      "szoveg": "",
+      "szoveg": "Mivel az ajtó túloldaláról hangokat hallasz átszűrődni, óvatosan nyitsz be. Ahogyan bekukucskálsz a túloldalon, két cseveg Orkot veszel észre. Remélve, hogy nem fogod érdekelni őket, megpróbálsz elsétálni mellettük, ám amikor észrevesznek, mindketten kardot húznak elő. Egyesével kell megküzdened velük.",
       "akcio":
       {
-
+        "tipus":"harc",
+        "megjegyzes":["Győztél", "Vesztettél"],
+        "ugras":[198]
       }
     },
         {
@@ -968,7 +1022,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -976,7 +1031,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -984,7 +1040,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -992,7 +1049,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1000,7 +1058,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1008,7 +1067,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1016,7 +1076,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1024,7 +1085,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1032,7 +1094,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1040,7 +1103,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1048,7 +1112,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1062,42 +1127,48 @@
     },
             {
       "sorszam": 122,
-      "szoveg": "",
+      "szoveg": "Az alagút egy ideig kelet felé folytatódik. végül északra fordul. Ahogy a kanyar felé közeledsz, a szemben lévő falon egy lüktető fényfoltot veszel észre. Óvatosan nézel be balra. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[144]
       }
     },
         {
       "sorszam": 123,
-      "szoveg": "",
+      "szoveg": "Nagy nehezen bemászol a lyukba és ereszkedni kezdesz. A levegő hőmérsékleté rohamosan növekedni kezd, és rájössz, hogy nagy hibát követtél el. Egyenesen egy föld-alatti kemence felé tartasz. Lángnyelvek csapnak feléd, ahogy próbálsz visszamászni a lejtőn. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[35]
       }
     },
         {
       "sorszam": 124,
-      "szoveg": "",
+      "szoveg": "Az ajtó egy teljesen üres szobába nyílik. A padlón egy nagy lyuk tátong. Ahogy a szélére lépsz és letekintesz, látod, hogy nem túl mély. Egy folyosó indul odalenn, mely szintén északi irányba halad tovább. Hogyha el- hagyod a helyiséget, és folytatod az utadat",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[129, 64]
       }
     },
         {
       "sorszam": 125,
-      "szoveg": "",
+      "szoveg": "Egy hosszú lépcsősor lábához érkezel. A fel- felé vezető út korántsem olyan nehéz, mint amitől tartottál. Nyersz 1 SZERENCSE pontot. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes":["Szerencséd van! [+1]"],
+        "ugras":[142]
       }
     },
         {
       "sorszam": 126,
-      "szoveg": "",
+      "szoveg": "Az alagút északi irányba halad, egy idő után azonban kettéágazik. A jobb oldali alagút olyan meredeken ereszkedik lefelé, hogy még durván faragott lépcsőket is látsz benne. Ha erre akarsz továbbmenni, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[155, 118]
       }
     },
         {
@@ -1113,103 +1184,114 @@
     },
         {
       "sorszam": 128,
-      "szoveg": "",
+      "szoveg": "Még élsz! Bármennyire is fáradt vagy, kardod markolatával darabokra zúzod a tükröt. Ebből már nem fog újabb kihívó előlépni. Egy keskeny szirten találod magad, egy magas sziklafal kellős közepén. A barlangüreg plafonja áthatolhatatlan sötétségbe burkolózik. Előtted egy folyó halad keletről nyugatra, felette pedig egy híd ível át. Nem találsz lefelé vezető utat, csak egy vasgyűrűn akad meg a szemed, amit a falba rögzítettek. Hozzákötöd a köteled, majd el- kezdesz lefelé mászni. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "megjegyzes":["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[48, 93]
       }
     },
         {
       "sorszam": 129,
-      "szoveg": "",
+      "szoveg": "Hamarosan egy újabb elágazáshoz érsz. Ha kelet felé mennél tovább, Hogyha északnak folytatnád az utad, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[112, 66]
       }
     },
         {
       "sorszam": 130,
-      "szoveg": "",
+      "szoveg": "Minden erődet összeszedve próbálod megemelni a fülénél fogva, azonban meg sem moccan. Kénytelen vagy feladni a dolgot és északi irányban folytatni az utad",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[80]
       }
     },
         {
       "sorszam": 131,
-      "szoveg": "",
+      "szoveg": "Elmondod a férfinak, hogy nincs nálad a Szobor. Arca kifejezéstelen, amikor meg- szólal. Rendben van. Kövess Meg- fordul, és egy csigalépcsőn elindul fölfelé. Nincs választásod, kénytelen vagy követni. A lépcső egy pódiumon ér véget, és boldog- sággal tölt el, hogy ismét börödön érezheted a nap sugarait, a szellöt. Mintha egy éve nem jártál volna a felszínen. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
-            {
+        {
       "sorszam": 132,
-      "szoveg": "",
+      "szoveg": "A víz elsodor a szikla mellett, és bármennyire is igyekszel, nem tudod elkapni. Próbálsz az áramlattal együtt úszni, abban bízva, hogy végül a partra vet téged, am miközben a barlangüreg nyugati fala felé közeledtek, kénytelen vagy rájönni, hogy a folyam eltűnik egy keskeny alagútban. Ha a felszinen maradsz, csúnyán be fogod verni a fejed a plafonba, úgyhogy mély levegőt veszel és lebuksz. Az áramlat magával sodor az alagútba, és többé nem bukkansz cló. Kalandod itt véget ér.",
       "akcio":
       {
-
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 133,
-      "szoveg": "",
+      "szoveg": " Kardoddal széttöröd a zárat és kitárod a cella ajtaját. Szabad vagy. Most pedig gyorsan mondd el, hol va.... A férfi věz naságához képest meglepo fürgeséggel rád ugrik és kicsavarja kezedból a kardodat. Ezután a gyomrodba szúrja saját fegyvered, és csuklójának egy csavarásával kibelez. Nem lett volna szabad megbiznod egy bü- nözőben. Kalandod itt ocsmány véget ér",
       "akcio":
       {
-
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 134,
-      "szoveg": "",
+      "szoveg": "Valamennyi mágia még van a Gyürüdben, ami figyelmeztet, hogy a szoba átkutatása elött próbálj meg meggyőződni arról, hogy nincs-e benne csapda. Sikerül kitapogatnod egy alig észrevehető, hajszálvékony rést a köpadlóban, ezért úgy döntesz, nem koc- káztatod meg, hogy belépj. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[154]
       }
     },
         {
       "sorszam": 135,
-      "szoveg": "",
+      "szoveg": "Felnevetsz a gondolatra, hogy egy ilyen vénséges, törékeny ember árthatna neked, miután annyi veszélyt sikerült túlélned. Dühödt kiáltással felemeled kardodat, hogy egyetlen csapással leszeld az alak fejét a nyakáról. A férfi a lábadra mutat, melyek egyból ólomnchézzé változnak. Képtelen vagy megmozditani őket. Bár minden iz- mod megfeszül, combod megkeményedik, hátad merevvé válik, felemelt karjaid meg- szilárdulnak. Csapás közben megdermedve rémülten nézed, ahogy az idős férfi hozzád lép és csontos ujjával megkocogtatja az arcod. Semmit nem érzel, de hallod a fém és szikla jellemző hangját, mikor gyürüi az orrodnak ütödnek. Kétségbeesetten próbál va menekülni, még egy utolsó lélegzetet veszel, mielőtt a szived kövé válik. Kalan- dod itt véget ér.",
       "akcio":
       {
-
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 136,
-      "szoveg": "",
+      "szoveg": "Visszatérsz a korábbi elágazáshoz. Előtted áll az ajtó, amin át beléptél. Arra nem me- hetsz tovább, igy északra fordulsz. ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[172]
       }
     },
         {
       "sorszam": 137,
-      "szoveg": "",
+      "szoveg": "Elég hosszú ideje barangolsz már az ala- gutakban, és kezdesz kétségbe esni, mikor az északi falon egyszer csak egy ajtó buk- kan fel. Ha be akarsz nyitni rajta, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[120, 28]
       }
     },
         {
       "sorszam": 138,
-      "szoveg": "",
+      "szoveg": "Kardodhoz kapsz, de elkéstél. Az állat meg- hallotta a zajt és felébredt. Rémülten nézed, ahogy először egy, majd két pofa emelkedik fel, hogy a levegőbe szagoljon. Ez nem egy egyszerű kutya, vagy netin farkas. Ez egy rémséges Xlaia, ami legjobb tudomásod szerint körülbelül száz éve halt ki. A falhoz ugrasz, mert tudod, hogy védened kell majd hátadat, és előhúzott karddal készülsz fel a lény támadására. A Xlaia morogva ugrik ki kosarából. Mindkét vicsorgó pofából sárga agyarak lógnak eló, melyeken még ott pi- roslik legutóbbi chédjük vére. Hogy még rosszabb legyen a helyzet, a lény szájaiból hosszú, nyálkás szálakban lóg a nyál, ami azt jelenti, hogy ez a fenevad veszett! Bár lenne nálad némi viz, hogy távol tartsd magadtól, ahogy a fenti világban is tennéd. A teremtmény jobbra-balra lengeti fejeit. miközben közeledik feléd. Meg kell küz dened vele!",
       "akcio":
       {
-
+        "tipus": "harc",
+        "ellenfel": [["Xlaia", 8, 7]],
+        "ugras": [100]
       }
     },
         {
       "sorszam": 139,
-      "szoveg": "",
+      "szoveg": "Miközben felhajtod a szintelen és szagtalan folyadékot, azonnal érzed, hogy felfrissülsz (nyersz 1 LETER pontot). Hogyha még nem tetted, és most szeretnéd meginni a második üveg tartalmát, lapozz a 150-re. Ha a harmadik fiolával próbálkoznál, ",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[150, 197, 29]
       }
     },
         {
       "sorszam": 140,
-      "szoveg": "",
+      "szoveg": "A keleti falon egy ajtó bukkan fel. Erős zárt látsz rajta, és túlságosan masszív ahhoz, hogy csak úgy betörhesd. Ha van nálad egy Bronz Kules, ",
       "akcio":
       {
 
@@ -1220,7 +1302,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1228,7 +1311,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1236,7 +1320,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1244,7 +1329,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1252,7 +1338,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1270,7 +1357,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1287,7 +1375,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1295,7 +1384,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1303,7 +1393,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1311,7 +1402,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1329,7 +1421,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1337,7 +1430,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1345,7 +1439,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1353,7 +1448,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1371,7 +1467,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1379,7 +1476,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1387,7 +1485,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1395,7 +1494,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1403,7 +1503,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1411,7 +1512,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1419,7 +1521,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1427,7 +1530,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1435,7 +1539,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1443,7 +1548,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1451,7 +1557,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1459,7 +1566,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1467,7 +1575,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1475,7 +1584,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1483,7 +1593,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1491,7 +1602,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1499,7 +1611,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1507,7 +1620,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1515,7 +1629,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1523,7 +1638,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1531,7 +1647,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1539,7 +1656,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1547,7 +1665,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1555,7 +1674,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1563,7 +1683,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1571,7 +1692,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1579,7 +1701,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1587,7 +1710,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1595,7 +1719,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1603,7 +1728,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1611,7 +1737,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1619,7 +1746,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1627,7 +1755,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
             {
@@ -1635,7 +1764,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1643,7 +1773,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1651,7 +1782,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1679,7 +1811,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1687,7 +1820,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
         {
@@ -1695,7 +1829,8 @@
       "szoveg": "",
       "akcio":
       {
-
+        "tipus":"ugrás",
+        "ugras":[84]
       }
     },
     {
