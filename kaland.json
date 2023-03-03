@@ -162,7 +162,7 @@
       "akcio":
       {
         "tipus": "harc",
-        "ellenfel": [["Óriáspók", 7, 6, 2]],
+        "ellenfel": [["Óriáspók", 9, 5, 2]],
         "ugras": [85]
       }
     },
@@ -1294,25 +1294,28 @@
       "szoveg": "A keleti falon egy ajtó bukkan fel. Erős zárt látsz rajta, és túlságosan masszív ahhoz, hogy csak úgy betörhesd. Ha van nálad egy Bronz Kules, ",
       "akcio":
       {
-
+        "tipus":"harc",
+        "ellenfel": [["Első Denevér", 5, 7, 2, "Második Denevér",6, 6, 2 ]],
+        "ugras": [85]
       }
     },
         {
       "sorszam": 141,
-      "szoveg": "",
+      "szoveg": "A járat hamarosan egy ajtóban ér véget. Ha ki szeretnéd nyitni és belépnél rajta, lapozz a 107-re. Ha nem akarod tudni, mi vár rád odabenn és inkább visszamennél az elága- záshoz, hogy kelet felé folytasd az utad.",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[122]
+        
       }
     },
             {
       "sorszam": 142,
-      "szoveg": "",
+      "szoveg": "A lépcsősor végül egy járatba torkollik, ami  kiszélesedik. Lélegzetelállító táj tárul a szemed elé. A folyosó egy széles szirtben ér véget, egy hatalmas barlangüreg falának kellős közepén. Óvatosan a szegély szélé- hez lépsz és letekintesz. Az egyik oldalon sziklába vájt lépcsősort pillantasz meg, ami egészen a barlang több száz méter mélyen lévő aljáig ereszkodik lefelé. Odalen egy gyors folyású folyót látsz, amit ha el akarsz érni, kénytelen leszel cikkcakkban lemászni a semmilyen védelmet nem adó lépcsőkön Az üreg olyan hatalmas, hogy saját légköre van. Most épp felhők gyülekeznek a fejed felett, melyekből időnként villámok csap- nak elő. Ez az egyetlen lehetőséged a lo- jutásra, úgyhogy nagyon óvatosan haladsz. Végül földet érsz.",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[27]
       }
     },
         {
