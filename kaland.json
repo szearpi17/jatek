@@ -52,7 +52,8 @@
       "szoveg": "Az ajtó egy nyugat felé haladó alagútba nyílik. Követed, amíg egy elágazáshoz nem érsz.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["észak felé fordulsz, [1]", "Letérsz a járatról, [2] "],
         "ugras":[172, 168]
       }
     },
@@ -61,7 +62,8 @@
       "szoveg": "Mikor végül eléred a verem alját, semmit nem látsz. A falakat végigtapogatva annyit meg tudsz állapítani, hogy az alagút kelet felé megy tovább. Ha a vaksötét ellenére is bevállalod ezt a járatot, ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Bevállalod a járatot, [1]", "Visszatérnél a fenti folyosóra, [2] "],
         "ugras":[165, 96]
       }
     },
@@ -88,7 +90,8 @@
       "szoveg": "Az ajtó recsegve nyílik ki és fel fed egy helyiséget, mely alig szélesebb a folyosónál. Hosszában két részre van osztva. Az egyik oldalon egy cellát látsz, míg a másik egyenesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredten néz téged és fenyegető mozdulatokat tesz irányodba. Gyanítod, hogy szabadságáért cserébe esetleg hasznos információkkal tudna szolgálni számodra",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Beszélni akarsz vele, [1]", "Kardélra hánynád, [2] "],
         "ugras":[149, 24]
       }
     },
@@ -97,7 +100,8 @@
       "szoveg": "Elérsz az alagút végére, de semmi feltűnőt nem látsz. Ha tovább akarsz keresgélni.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Keresgélsz, [1]", "Elágazáshoz visszatérsz, [2] "],
         "ugras":[38, 31]
       }
     },
@@ -106,7 +110,8 @@
       "szoveg": "A válladra csapod a köpenyt. De legnagyobb meglepetésedre semmi nem történik. Mivel egy kicsit azért hűvös van, nem dobod le. Bár nem tudod, de ez a Lebegés Köpenye Ha fel akarod próbálni a gyűrűt, és még nem tetted meg, lap. Amennyiben a folyadék még az üvegben van, és most felhajtanád.. Ha bezárnád a csapóajtót és az ajtón kilépve észak felé távoznál.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Felpróbálod a gyűrűt, [1]", "Bezárnád a csapóajtót, [2] "],
         "ugras":[119, 71]
       }
     },
@@ -270,7 +275,8 @@
       "szoveg": "A járat nyugati irányba indul, ám hamarosan északnak fordul. Végül elérsz egy ajtóig mely a keleti falban áll. Ha be akarsz nyitni rajta,",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Ha be akarsz nyitni, [1]", "Ha folyóson folytatnád, [2] "],
         "ugras":[124, 129]
       }
     },
@@ -306,7 +312,8 @@
       "szoveg": "A fiola erős mentaillatot áraszt magából. Ha meg akarod inni.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Ha megakarod inni, [1]", "Ha inkább hagyod, [2] "],
         "ugras":[102,169]
       }
     },
@@ -426,7 +433,8 @@
       "szoveg": "Az ajtóhoz lépsz és kezelésbe veszed a hatalmas zárat: tekerni kezded a tárcsákat, míg a helyes kombinációt nem sikerül beállítanod rajta. Ahogy az utolsót megfelelő helyzetbe fordítod, az ajtókinyílik és egy szoba tárul fel előtted, melynek falait könyvekkel megrakott polcok szegélyezik. Egykönyvtárban találod magad. A középen álló asztalon három nyitott könyvet látsz.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Piros, [1]", "Kék, [2] ", "Zöld, [3]", "Észak, [4]"],        
         "ugras":[59, 104, 88, 10]
       }
     },
@@ -463,7 +471,8 @@
       "szoveg": "Egy kis helyiségbe nyitsz be, mely első ránézésre nem tartalmaz semmi mást, csak nagy halom törmeléket a padlón. Ahogy beljebb lépsz, kellemetlen szag csapja meg az orrodat, és egy éles, magas, és - amennyire meg tudod állapítani - dühödt visítás kezd egyre erősödni. Végül egy rikoltás kíséretében két hatalmas Denevér ereszti el a plafont a szoba két sarkában, és feléd kezdenek repülni. Ahogy ösztönösen lebuksz sikerül észrevenned a lények vicsorgó agyarait, melyek, készek szétcincálni a torkodat Ha gyorsan kihátrálsz, majd becsapod magad mögött a bejárati ajtót,",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Becsapod az bejárati ajtót, [1]", "Megküzdesz a szörnyekkel, [2] "],
         "ugras":[80, 140]
       }
     },
@@ -481,7 +490,9 @@
       "szoveg": "A part teljesen kihaltnak tűnik, te pedig eléggé óvatlanul járkálsz, így a homokban bujkáló apró, bíbor rák minden gond nélkül csíp bele a lábadba. Vesztesz ÉLETERŐ 2 pontot. A három ajtó bármelyikén át távozhatsz.",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "ero":[-2],
+        "megjegyzes": ["Északi ajtó, [1]", "Nyugati ajtó, [2] ", "Keleti ajtó, [3]"],
         "ugras":[87, 6, 111]
       }
     },
@@ -521,6 +532,8 @@
       "akcio":
       {
         "tipus":"ugrás",
+        "megjegyzes": ["Elsö üveget felhajtod, [1]", "Második érdekel, [2] ", "Harmadik, [3]", "Negyedik érdekel, [4]"],  
+        
         "ugras":[139, 150, 197, 29]
       }
     },
@@ -539,7 +552,8 @@
       "szoveg": "Felemeled a piros Szinű könyvet és átfutod a tartalmát, remélve, hogy találsz benne valami hasznosat, amit felhasználhatnál, a labirintusból való kijutásra. A szöveg azonban sajnos ősi Elf nyelven íródott így egyetlen rúnáját sem érted. Ha még nem tetted, most belenézhetsz, ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Belenézhetsz0, [1]", "Zöld, [2]", "Meguntad az olvasást [3]"],  
         "ugras":[104, 88, 10]
       }
     },
@@ -635,7 +649,8 @@
       "szoveg": "Elérsz egy keletre letérő oldaljárathoz. Az előre haladó út, úgy tűnik, hirtelen véget ér, vagy élesen oldalra kanyarodik. Ha a keleti járattal próbálnál szerencsét, lapozz a 31-re Ha tovább mennél északra és megvizsgálnád a folyosó végét",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Keleti, [1]", "Északra, [2] "],  
         "ugras":[31, 11]
       }
     },
@@ -644,7 +659,8 @@
       "szoveg": "Az ajtó egy kis szobába nyílik. Ahogy a nyílásban állsz, a fáklyák ragyogó fényében valami tiszta, vérvörös szín csillan meg Egy hatalmas rubin az, ami örök életedre gazdaggá tenne, ha ki tudnád juttatni a labirintusból. Hogyha a drágakőhöz lépnél és magadhoz vennéd, ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Magadhoz veszed, [1]", "Itt hagynád, [2] "],  
         "ugras":[18, 106]
       }
     },
@@ -709,7 +725,8 @@
       "szoveg": "Mielőtt lehetőséged lenne előhúzni a kardodat, az öreg férfi felemeli, jobb kezét Mosolya eltűnik arcáról, hangja pedig, mely hirtelen felerősödik, megszólal a fejedben, ám ajkai közben nem mozognak. Ne próbálj meg ártani nekem. Erőm hatalmas és bármikor olyan tömör sziklává változtathatlak, mint egy oszlop a Nagyteremben. Ha nem törődsz a figyelmeztetésével és folytatod a támadást, lapozz a 135-re. Ha nálad van a szobor és válaszolni kívánsz a kérdésére, lapozz a 91-re. Ha nincs nálad, vagy nem vallod be, hogy megszerezted, úgy lapozz a 131-re",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Támadás, [1]", "Válaszolsz, [2] ", "Nem válaszolsz, [3]"],  
         "ugras":[135,91, 131]
       }
     },
@@ -728,7 +745,8 @@
       "szoveg": "A keleti járat elég keskeny és sötét, és újabb leágazásba fut bele, ezúttal a balodon. Ha erre mennél tovább, északi irányba,",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Északi irányba mész, [1]", "Egyenesen folytatod, [2] "],  
         "ugras":[141, 122]
       }
     },
@@ -765,7 +783,8 @@
       "szoveg": "Az öreg arcra megkönnyebbülés ül ki. Kinyitja a fal egyik titkos rekeszét és elvesz egy bőrerszényt. Előrenyújtott kezedbe önti annak tartalmát, 27 Aranytallért és egy Gyémántot, amiket azonnal a hátizsákodba pakolsz. Ha most az északi falon álló ajtón át távozol, ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Északi fal fele,mész, [1]", "Megszeged a szavad, [2] "],  
         "ugras":[180, 17]
       }
     },
@@ -817,7 +836,8 @@
       "szoveg": "A zöld könyvet kézzel írták, és valamiféle naplóra emlékeztet. Az utolsó bejegyzés, legnagyobb döbbenetedre, a te nevedet tartalmazza. Ez a próbára küldött bűnözök listája. Szerencsére egyelőre nem látsz ítéletet beleírva. Sikerül megállapítanod hogy mióta te beléptél, azóta nem küldtek újabb embert a próbám, ám előtted egy nappal korábban egy tolvaj lépett be, és az 6 neve mellett már ott szerepel a döntés: bűnös! Ha még nem tetted, most belenézhetsz ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Piros, [1]", "Kék, [2] ", "Távozol, [3],"],  
         "ugras":[59,104,10]
       }
     },
@@ -920,7 +940,8 @@
       "szoveg": "A fáklyák halovány fényében súlyos vasrácsot látsz a fal jobb oldalán. Zárva van, és bármennyire is erőlködsz, semmit nem látsz mögötte. Ha van nálad egy Bronz Kulcs, és azzal próbálod meg kinyitni a zárat",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Kinyitod, [1]", "Nem nyitod ki, [2] "],  
         "ugras":[159, 68]
       }
     },
@@ -939,7 +960,7 @@
       "akcio":
       {
         "tipus":"harc",
-        "megjegyzes":["Győztes", "Nem gyöztél"],
+        "megjegyzes":["Győztes [1]", "Nem gyöztél [2]"],
         "ugras":[82]
       }
     },
@@ -966,7 +987,8 @@
       "szoveg": "A kék könyv térképeket tartalmaz, és bár minden nevet Elföl írtak bele, a képen felismerni véled Analandot. Úgy tűnik, ez a mű tartalmazza azon városok, falvak, és ami még fontosabb, bányák helyzetét, melyekben drágakövet vagy nemesfémet találhatsz. Ha sikerülne magaddal vinned ezt a kötetet a felszínre, futármunkád sokkal jövedelmezőbbé és biztonságosabbá válhatna. Biztonságba helyezed hát kabátod egyik belső zsebébe. Mielőtt elhagynád a termet, még belenézhetsz a piros",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Belenézhetsz a pirosba, [1]", "Zöldre lapozol, [2] ", "Egyszerűen távozol, [3]"],  
         "ugras":[59, 88, 10]
       }
     },
@@ -984,7 +1006,8 @@
       "szoveg": "A járat továbbra is északnak tart, de hamarosan egy leágazást találsz, mely keletre tér le. Ha erre mennél tovább",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Keletre térsz le, [1]", "Egyenesen mész tovább, [2] "],  
         "ugras":[179,153]
       }
     },
@@ -1320,29 +1343,30 @@
     },
         {
       "sorszam": 143,
-      "szoveg": "",
+      "szoveg": "A keleti falon egy ajtó bukkan fel. Eros zárt látsz rajta, és túlságosan masszív ahhoz, hogy csak úgy betörhesd. Ila van nálad egy Bronz Kulcs, lapozz a 70-re. Ha nincs, úgy kénytelen vagy folytatni az utad",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[103]
       }
     },
         {
       "sorszam": 144,
-      "szoveg": "",
+      "szoveg": "Mikor már félúton jársz a fényfolt felé, a talaj megnyilik alattad, de még az clott sikerül visszalépnod, hogy te is beloesnél korábbi óvatosságod meghozta gyümölcsét. Ahogy közelebbról is megvizsgálod, meg- allapitod, hogy egy kis, kör alakú verem az a padló kellós közepén. Rozoga létra fut lefelé végig az oldalán, de vagy túl sötét van, vagy túl mély lyuk, mert nem látod az alját. Ha szét akarsz nézni benne, lapozz a 7-re. Ila inkább átugomád és kideritened. mi a ferry folt forráifi",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[96]
       }
     },
         {
       "sorszam": 145,
-      "szoveg": "",
+      "szoveg": "A helyiség közepén egy 30 Aranytallérból épített csillogó kupac áll. Óvatosan, az esetleges csapdákra odafigyelve teszed öket zsebre. Ha további érmék után akarod át- kutatni a sarkokat, ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes":["Kiakarod kutatni a sarkokat, [1]", "Inkább távoznál, [2]"],
+        "ugras":[36, 98]
       }
     },
         {
@@ -1357,11 +1381,12 @@
     },
         {
       "sorszam": 147,
-      "szoveg": "",
+      "szoveg": "A járat egy ajtóban végződik. Hogyha ki szeretnéd nyitni, lapozz a 22-re. Ha vissza- témél az elágazáshoz, és észak felé folytat nád az utad",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Hogyha kiszeretnéd nyitni, [1]", "Ha vissza térnél az elágazáshoz, [2]"],
+        "ugras":[22, 108]
       }
     },
         {
@@ -1375,38 +1400,40 @@
     },
         {
       "sorszam": 149,
-      "szoveg": "",
+      "szoveg": "Megkérdezed a fogolytól, mondana-e neked valami hasznosat a szabadságáért cserébe. A fickó szemei felcsillannak, és azonnal bólint. Elmondhatom neked, merre találod a legnagyobb rubint, amit valaha láttál - mondja. De elöbb eressz ki innen. - Ha teljesited a kérését, ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Ha teljesíted a kérést, [1]", "Hogyha inkább végeznél vele, [2] ", "Ha itt akarod hagyni az északi ajtón át távoznál, [3]"],
+        "ugras":[133, 24, 72]
       }
     },
         {
       "sorszam": 150,
-      "szoveg": "",
+      "szoveg": "Ajkadhoz emeled az üvegesét és megiszod a tartalmát. Mennyei ize van, így ujjaddal az utolsó cseppet is kitörlöd. Ekkor forogni kezd körülötted a járat, te pedig összeesel. Az üvegben Altató Ital volt. Orákon át heversz a padlón onkivületben, kiszolgál tatva a tolvajoknak és más veszedelmeknek. Mikor felébredsz, még mindig elég fáradt- nak érzed magad, bár a fejed teljesen ki- tisztult. A soron következő csaták során a fáradtság miatt 1-el csökkentened kell majd Támadóerődet. Hogyha még nem tetted és most meg akarod inni az első üvegben lévő folyadékot, lapozz a 139-re. Ha a harmadik fiola tartalma érdekelne, lapozz a 197-re Ha folytatod az utad kelet felé, lapozz a 29-re.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Iszol, [1]", "Fiola érdekel, [2] ", "Kelet felé mész, [3]"],
+        "ugras":[139, 197, 29]
+
       }
     },
         {
       "sorszam": 151,
-      "szoveg": "",
+      "szoveg": "Próbálkozásod, hogy biztonságba juss, tel jes mértékben hiábavalónak bizonyult. Egy szikladarabon állsz, melynek tetején har- mineméternyit zuhantal lefelé. Miközben azon töprengsz, hogyan juthamál ki, rájössz hogy a kút alját, ahol állsz, finom, félig folyékony homok kezdi betölteni. Először lábfejedet temeti be, majd térded, és mire eléri a mellkasodat, karjaidat már nem tudod megemelni. A körülötted feszülő nyo- más összezúz, öt perc múlva pedig már tel- jesen elborít a homok. Kalandod itt véget ér",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"vége"
       }
     },
             {
       "sorszam": 152,
-      "szoveg": "",
+      "szoveg": "A járat, melyen most haladsz, elég keskeny, de még át tudod magad préselni a falak között. Balodon egy alagút fut be a folyo- sóba, te azonban eltökélten mész tovább egyenesen",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[99]
       }
     },
         {
@@ -1421,38 +1448,39 @@
     },
         {
       "sorszam": 154,
-      "szoveg": "",
+      "szoveg": "Bezárod magad mögött az ajtót és tovább mész kelet felé. ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[16]
       }
     },
         {
       "sorszam": 155,
-      "szoveg": "",
+      "szoveg": "A lejtő elég meredek, és már régóta mész, mikor a lépcsők megszűnnek, a járat pedig élesen balra kanyarodik. Fárasztó volt idáig az út, ezért lankad a figyelmed, mikor egy mocskos, dagadt Hobgoblin ugrik clód. Bandzsa szemeivel - az egyik bibor, a má- sik zöld - méreget téged. Ruhái ugyanolyan koszosak, mint ő maga, ráadásul eléggé szakadtak is, a kezében lévő kard azonban borotvaéles, és látszik, hogy gondosan kar- ban tartja. Előre nyújtott fegyverrel közele- dik feléd.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus": "harc",
+        "ellenfel": [["Hobgoblin", 7, 8, 3]]
       }
     },
         {
       "sorszam": 156,
-      "szoveg": "",
+      "szoveg": "A férfi hűvösen mér végig. Hazudsz! -mondja. Es a hazugok büntetést érdemel- nek. Elsétál melletted a folyosón. Nyug- talanul töprengsz azon, vajon hogy is ért- hette, amit mondott. Hamarosan megtudod. A története ugyan igaz volt, azt azonban nem mondta el, mi volt a foglalkozása a fenti világban, hogy miért került ide: zseb- tolvaj volt! 2 adag élelmedet nyúlta le a fickó. Vesztesz 1 SZERENCSE pontot. Ezután folytatod utadatkelet felé. Lapozz az 57-re.",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[57]
       }
     },
         {
       "sorszam": 157,
-      "szoveg": "",
+      "szoveg": "Az ajtó egy kicsi, szellősen berendezett szo- bába nyílik. Hangos horkolás hangját hal- lod, melynek forrása, úgy tűnik, egy szék, mely háttal áll neked: ritka, szürke színű hajtincset vélsz látni felette. Óvatosan meg- kerülöd az előtted álló asztalt és megvizs- gálod az alvó férfit. Egy idős férfi az, aki összefont kézzel alszik a kényelmetlen ülő- alkalmatosságon. Az északi falon egy újabb ajtót látsz. Ha ez utóbbin át távoznál, lapozz a 180-ra. Hogyha távozol a helyiségből és a folyosón mész tovább",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Északi fal fele, [1]", "Távozol, [2] ", "Szétnézel, [3]"],
+        "ugras":[180, 125, 166]
       }
     },
         {
@@ -1467,326 +1495,351 @@
     },
         {
       "sorszam": 159,
-      "szoveg": "",
+      "szoveg": "Elfordítod a kulcsot a vasrács zárjában. A szárnyak nem nyílnak ki, ahogy arra szá- mítani lehetne, és erősen kell tolnod, hogy megmozdítsd. Végül a nagy nekifeszüléstől felpattan, te pedig a lendülettől hajtva be- esel rajta. Legnagyobb rémületedre azonban a helyiségnek, melybe bejutottál, nincsen padlója! Ha rajtad van a Lebegés Köpenye ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Ha rajtad van a Lebegés Köpenye, [1]", "Zuhanni kezdesz, [2] "],
+
+        "ugras":[43,115]
       }
     },
         {
       "sorszam": 160,
-      "szoveg": "",
+      "szoveg": "Lenézel ellenfeleid elernyedt tetemeire. Holtukban még ocsmányabbak, mert a vi- esorgás gonosz pofájukra fagyott. A törme- lékek között első ránézésre nem sok érdekes dolgot találsz. Ha alaposabban is át akarod vizsgálni, ",
       "akcio":
       {
-        "tipus":"ugrás",
+        "tipus":"választás",
+        "megjegyzes": ["Alaposan vizsgálod, [1]", "Zuhanni kezdesz, [2] "],
         "ugras":[84]
       }
     },
         {
       "sorszam": 161,
-      "szoveg": "",
+      "szoveg": "A járat egy négyzet alakú szobában ér véget, melyet a rothadó hús szaga tölt meg. A padló nagy részét két óriási, bugybo- rékoló sármedence teszi ki. Egy keskeny kifutó- mely nem sokkal szélesebb, mint a lábfejed halad középen, a terem széleit pedig hasonlóan keskeny szegélyek futják körbe. Mindhárom út egy nyílásban fut össze az északi falon. Ha a jobboldalin haladnál végig, lapozz a 181-re. Ha a bal- oldalin, lapozz a 193-ra. Amennyiben a középső utat választanád, lapozz a 171-re.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Jobboldal, [1]", "Baloldal, [2] ", "Középső út, [3]"],
+        "ugras":[181, 171, 193]
       }
     },
             {
       "sorszam": 162,
-      "szoveg": "",
+      "szoveg": "Visszanyered egyensúlyod és a rubinért nyúlsz. ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[46]
       }
     },
         {
       "sorszam": 163,
-      "szoveg": "",
+      "szoveg": "Követed az alagutat, mely szinte azonnal egy újabb szobába torkollik. Ennek a pad- lója jóval lentebb áll, mint a bejárat, ahol most állsz, padlóját és kör alakú falát pedig elég magasan kölapok borítják. Ezekre különös, egymásba fonódó mintákat festet- tek, melyek mintha valamilyen mágikus vagy misztikus jelentőséggel rendelkez- nének. A helyiség szinültig van telve kris- tálytiszta vízzel, és mivel eléggé mocskos vagy, meg meleged is van, nem tudsz ellen- állni a kísértésnek. Levetkőzöl, és miután a biztonság kedvéért a fa ajtófélfába állítod a kardodat, elmerülsz a vizben. Miután per- cekig boldogan pancsolsz idelenn, és teljesen felfrissülsz, megfordulsz, hogy kimássz. Ekkor veszed észre a víz alatt lévő másik kijáratot. Lemerülsz, hogy alaposab- ban is szemügyre vedd. A kilincset nem tudod lenyomni, ami azért szerencse, mert ha leeresztenéd a vizet, akkor elég bajos lenne kijutnod a medencéből. Nem találsz itt semmi más érdekeset, igy felöltözöl és távozol. Visszatérsz a vermes ajtóhoz. Ha most le akarsz itt ugrani, lapozz a 185-re. Ha inkább visszatémél a korábban látott elágazáshoz és nyugat felé folytatnád az utad, lapozz a 168-ra.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Leugrasz itt, [1]", "Viszzatérnél a korábban látott elágazáshoz, [2] "],
+        "ugras":[185, 168]
       }
     },
         {
       "sorszam": 164,
-      "szoveg": "",
+      "szoveg": "Ahogy lenyomod a kilincset, az ajtó kicsa- pódik, mintha valami hatalmas súly nyomná ki a túloldalon. Azonnal rájössz, hogy nagy hibát vétettél, mikor vizsugarak kezdenek el kispriccelni az apró réseken. Kétségbe- esetten próbálod újra bezárni a kitömi ké- szülő víztömeget ám hamar rájössz, hogy erre semmi esélyed, igy más választásod nem lévén menekülni próbálsz. Az ajtó ki- csapódik, a szük járatban pedig esélyed sincs rá, hogy túléld a dolgot. A víz teljes tömege rád zúdul, te pedig azon nyomban megfulladsz. Kalandod itt véget ér.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 165,
-      "szoveg": "",
+      "szoveg": "A setben megbolasz és elterülsz a padlón Sikurult cinyin megunod magad. Doty egy kockával, hogy megtudd, hany tum pontot verlettel. Elore nyujtott kezeid szinte ugyanebben a pillanation falha ot konk. Zakutcába jutottal Milhen alagut falát keresed, fimes csörgés úti meg flod, lábaddal korbotspogativa sike ril ralcined ugy kis valanmirsa padlón Zebre teszed, majd miután visszamiesznál letran a fénybe, alaposabban is megvizs plod. Egy kis Arany kulcs az. Viswaszod azchodbe és észak fold induh Lapozz a 96-ra.",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[96]
       }
     },
         {
       "sorszam": 166,
-      "szoveg": "",
+      "szoveg": "Alaposan átkuated a szobát, a furti azonban talin opp a hangos borkolása miatt nem cred lef. Elég ártalmatlamak tünk, de nar egyszer tortint már meg korabhi kalandjaid soran, hogy Bethen hagytál egy látszólag valytelen ellenfisket, aki aztán egy rejt sort olkapen häälta mog a dolgot. Talia lenta a legjobb, ha egyszerium végemi vde. Hogyha azt teszed, lapout a 17-re. Ha inkább felébrested, hogy kikundead, Lapozz 113-ra.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Hogyha teszed a lapot, [1]", "Ha felébreszted, [2] "],
+        "ugras":[17]
       }
     },
         {
       "sorszam": 167,
-      "szoveg": "",
+      "szoveg": "Rajtad van az Opvody Cyrje? ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Igen, [1]", "Nem, [2] "],
+
+        "ugras":[134, 58]
       }
     },
         {
       "sorszam": 168,
-      "szoveg": "",
+      "szoveg": "Egy abb elágazáshoz érkezel. Ha észak fele mennel lapozza 161-re. Ha továbbra is nyugati iniba haludmal, ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Észak felé mész, [1]", "Nyugat felé mész, [2] "],
+        "ugras":[161, 73]
       }
     },
         {
       "sorszam": 169,
-      "szoveg": "",
+      "szoveg": "folyos vég egy kiesmy tit találsz Ahogy figyelsz, killinds, sobogó hango hallas atsirodni rajta. Erintesedre ko nosen hivosnek tni az anyaga. Ha ki akarod nyitni, ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Ki akarod nyitni, [1]", "Hagyod ahol van, [2] "],
+
+        "ugras":[164, 172]
       }
     },
         {
       "sorszam": 170,
-      "szoveg": "",
+      "szoveg": "A cövek súlyos sebet ejtett rajtad..Vesztesz 3 életerő pontot.3 pontot. De legalább odairs a minho ",
       "akcio":
       {
         "tipus":"ugrás",
+        "ero":[-3],
         "ugras":[84]
       }
     },
         {
       "sorszam": 171,
-      "szoveg": "",
+      "szoveg": "Abory a kondo pallon sétálsz végig, Let oldaladon a sermodmock festine bugybo rékelni kezd. Oriasi mobuborékok törek fel belőlük, melyek, Liduransa fojtogatós rothado nisszagal töltik meg a helyiséget. Tall prihanat Ha soreneséd vm, lipoze ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[173, 182]
       }
     },
             {
       "sorszam": 172,
-      "szoveg": "",
+      "szoveg": "A folyosó gyorsan szilosodik, végül egy sebb saha méreteit alti magar. Nam miese led innét deszeszkill, és újra egyen járatként folytatja dute. A padló közepén egy sóly almát lámz, Hu gorany Atgázolsz rajta, hogy a túloldalon folytat hasd az urad, ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Túloldalon folytatod, [1]", "Beleugrasz, [2] ", "Visszatérsz az elágazáshoz, [3]"],
+        "ugras":[163, 185, 168]
       }
     },
         {
       "sorszam": 173,
-      "szoveg": "",
+      "szoveg": "Gond nélkül sikerül derned a túloldalra. ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[52]
       }
     },
         {
       "sorszam": 174,
-      "szoveg": "",
+      "szoveg": "Egy óriási harlangba drozel, melynek fa- laha egy poloot vajtak. Ebben al egy tyúk- kojas marcti rubin. Simira csiszolt lapini csak agy csillognak a falen sorulated al lyik fénychen Elite felkörbe runderve mintegy védvonal gyanánt hossa, hogy covekek sorakoznak tobb sorban. Es mo zognak a lyukadhan? Az egyik porchon mig day állnal out, mint egy korek katk mintha a dripského kisugira anyt simbolizálnák a követkeoben pedig már korkords vonalba fordulnal Nem lesz egy ser igy eljutni a khöz, mert egywoma mindig csak egyet léphetsz dire. A come kik nagyon hegyesek, és könnyen sülyes sérülést kohatnak. Ha mindezek ollandra megpróbálod magazm a rubint, lapozza 189-re. Hogyha úgy érzod nom ini meg a kockázatot, vivuntérhetsz a folyóra Lelenek fordulhatsz-lapotea 184-10",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Rubin, [1]", "Kockázatot vállalsz, [2] "],
+
+        "ugras":[189,184]
       }
     },
         {
       "sorszam": 175,
-      "szoveg": "",
+      "szoveg": "Elhatrale a közeledó kukacok elé akik körtod és az egyetlen kijárat kozom terülnek el. Az elől lévők felé capur Landeddal, ukik berzalmas cuppimas kiséretében robbannak Helyüket azonban egyból átveszik a mögönül jövök Ekkor dobbene . hogy elytdan vagy ellenlik Végső kétségbo- essedbon megpróbálsz átugrani a fogyni nem akar tömegen, hogy igy and el az ajtót im ahogy lahad folder du selaput néhányat az undorító teremtmények kö megeszi vallás maradványaikon kapilodzó karokkal cherthu n Roldon Mindon anyból körbe vagy véve, a leg- közelebb allok podig már hole is  kezdtek az elfogyasztásodbe. Szaz apró, erős állkapocs tepi le a hist, imot és inakat continidred Bemanak az orrodha, a szádha, és nem- sokára elurik agyad lagy sovet in. Ki- mondhatati svedések közepette ves fet el cletod Kalandod itt véget ér.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"vége"
       }
     },
         {
       "sorszam": 176,
-      "szoveg": "",
+      "szoveg": "Sukaroliland talaga junod. Megkönnyeb baltan felsébatas",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[32]
       }
     },
         {
       "sorszam": 177,
-      "szoveg": "",
+      "szoveg": "Redél a eselnek! Ahogy átlépsz a falak kozott, egy csapdát aktiválsz, mely elvit egy mogtolon simserijat. Tad podra at ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[78, 21]
       }
     },
         {
       "sorszam": 178,
-      "szoveg": "",
+      "szoveg": "Az alagút egyra alacsonyabb és ebbé válik, így nehéz nem észrevenni az in ho- sar kis, kalk folyadikan tartalmazó ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[34]
       }
     },
         {
       "sorszam": 179,
-      "szoveg": "",
+      "szoveg": "Az alagút merodeli megy flické, végal egy lágazása torkollik Dere tekintve fordulsz ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[127]
       }
     },
         {
       "sorszam": 180,
-      "szoveg": "",
+      "szoveg": "A jarat olyan marodekon emelkedik solfole hogy végül egy kéménnyé változik. In mar csak úgy tudsz haladni, ha a hataddal és labaddal nekurse ket szemben illo fl nak, és continként arstva mászol felfelé. Miker végül feljutsz, epy soles szint- lálod magad Nagyon elfáradtal a nehéz mászástól veut I pontot ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[56]
       }
     },
         {
       "sorszam": 181,
-      "szoveg": "",
+      "szoveg": ":Ahogy magkarlod a modencot, látod, amint a sát bugyogni kel. Hatalmas pazuho- rékok emelkednek ki belőle és mobbannak fel rothado hús szagával soltve bu a levogot Told próbára race! Ha szerencsés vagy lapozza 192-re. Ha nincs szerencséd. lapozz 188-ra.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"]
       }
     },
             {
       "sorszam": 182,
-      "szoveg": "",
+      "szoveg": "A sárból két szpirkány fija emelkedik ki, A sumakbo kinow capok finnyel izzanak, miközben áldozati; után garfelho del körbe. A sayek mély le vepot vesznek, kuten padig credeni mere- ik kétszeresére nond, meg. Eurod kar dodat és remélod, eles es ügyes vagy, hogy megóvd magad a rod loMindkét ellenfeled kalon-kalon tamad rád minden körben, neked azonban el kell don toned, melyikükkal akarsz harcolni. A ki- választott Isaparkannyal a szokott módon kardi meg. A másik ellen ugyanigy doby timadodobást, azonban hate Timadó- endal a magasabb, nem okoval naki seh- zést, cupin kivided as & támadását. Ha az Támadóért a nagyobb, a szokásos moden okoz nekad sebesülést. Ha mind bestiát sikerül egyöröd",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[74]
       }
     },
         {
       "sorszam": 183,
-      "szoveg": "",
+      "szoveg": "Az egyik kering colop váratlanul elfordul, és könnyedén felhasitja a börödet. Tedd probra att Ha secrencsés vagy",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[194, 170]
       }
     },
         {
       "sorszam": 184,
-      "szoveg": "",
+      "szoveg": "Keleti irányba haladva elérsz a központi chigazishi. Ha innen északra folytatád ar utad",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Észak felé folytatod, [1]", "Kelet felé mész el, [2] "],
+        "ugras":[161, 136]
       }
     },
         {
       "sorszam": 185,
-      "szoveg": "",
+      "szoveg": "Lograr a verembe, mintán meggyözö róla, hogy ki se nadni belöle mászni, ha ez akségesnek bizonyulna. Mikor Lörbe- nczel agy alacsony bejáratru bukkanse uz egyik kinyuló szikladarah alatt. Szinto nagy- kézlábra kell lecreekodned, hogy be tudi kukkantani rajta. Ha alaposabban is st aloruz odaben ném, agy lapozz ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Alaposan szétnézel, [1]", "Visszatérnél a szobába, [2] "],
+        "ugras":[178, 172]
       }
     },
         {
       "sorszam": 186,
-      "szoveg": "",
+      "szoveg": "Kamimynasz földet és estnyan kitc mited a bokadat. Vostro pontot Santikalva indulsz el escak fele ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[126]
       }
     },
         {
       "sorszam": 187,
-      "szoveg": "",
+      "szoveg": "Elmondod a fickónak, murről jöttél, aki erre elmosolyodik Kosalnom mondja Segitenel rajtam, igy on is sagitek turnitad Csak annyit mondok, nem mind urany, ani fnylik. Sok alakja van annak, amit kerosak ne hagyd, hogy hamis Szobrok félrever sonek Azzal elmegy motlotted as chunik a távolban. A mondottakoon töprengve foly tatod az utad kolet felé",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[57]
       }
     },
         {
       "sorszam": 188,
-      "szoveg": "",
+      "szoveg": "A nie felizing amclkodni kezd és kompa pikkanis kisérem egy óriás gaububorék emelkedik ki boböle. Ahogy a felszin ki simulna, apró zöld szina, cikázó fények jolack mog rajta. A foltocskák kiemel kodnak, aljukból csápok nimek ki, melyek pereril percre hosszabbodnak Végül egy Iszapsikany óriási feje bukkan elő feb valkas folyadék mélyéből! Most már látod, hogy a zöld fenyek, amiket korábban láttál, valójában a lény fejohol kinow csipok melyek egészen addig szabadon lengeni lát- szanak, mig hirtelen mindegyik rád nam sreeceödik. A hatalmas saj kinyilik, ford mes seng gáz the elo belöle, cautin dilan- feled duzzadnika, ahogy levegővel szivja meg magát Rájössz, hogy meg kell kunde.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"harc",
+        "ellenfel": [["Iszapsárkány", 9, 5, 3]],
+        "ugras":[9]
       }
     },
         {
       "sorszam": 189,
-      "szoveg": "",
+      "szoveg": "Ahogy övalosan affuladsz a padlón, a várva, hogy a covek mozgás kiban stat engodjenek nekoč, az egyik hogya belokup kabatodba és kabillent az agyamulyodbil Teil próbára estat Ha sacad van, lapozz a 162-40. ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[162, 183]
       }
     },
         {
       "sorszam": 190,
-      "szoveg": "",
+      "szoveg": "Már majdnem dired a sziklaszint aljat amikor a kötel clogy Innon le kell uera- nod. Nagyjából kit méterre van alattad a talaj, de clég sildas. Tad próbána - cao Ta szarencsés vagy, biztonsághan. sebesülés nélkül landols a talajon ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[27, 54]
       }
     },
         {
       "sorszam": 191,
-      "szoveg": "",
+      "szoveg": "A hirom teramtmény estèt ikatata fo jenkint Aranytallért találsz. Eztina Kristályhoz lepsz, a belőle áradó, gytery rien biktető feny azonban már halványodni kendett, és mire felemeled, már csak egy nagy, driddelen avugombot tartasz a ke zodben. Kirumkodva vagod a foldhor, abol darabokra torik. A barlangban azon kival cupin egyetlen érdekes dolgot találsz egy nagyjából egy méter mórójú lyukat a fal- ban, több moter magasan. Elé húzod az emelvényt, melyen korábban a kristály állt, thills es batekintesz rajta. Sina csúszdát pillantasz meg, mely anyhén lelle lujt. He eran a lyuk at akarod folytatni at utal, la- pozz a 123-m. Ha az északi alagúton it tivomál, lapozz a 33-",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Lyuk, [1]", "Északi alagút, [2] "],
+
+        "ugras":[123, 33]
       }
     },
             {
       "sorszam": 192,
-      "szoveg": "",
+      "szoveg": "majd sctvo tvogol az eszaki nyíláson át ",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[52]
       }
     },
         {
       "sorszam": 193,
-      "szoveg": "",
+      "szoveg": "Ahogy magkaralod a modencét, látod, ahogy mocorgni kezd a felsin. Apró, zöld Tonyck nonck ki a sir folozinchol Tekd pina etiese ",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[25,101]
       }
     },
         {
       "sorszam": 194,
-      "szoveg": "",
+      "szoveg": "Szerencséd van, a covek lag kesi Veste kaseta seb arany 20 pontot",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"szerencsepróba",
+        "megjegyzes": ["Szerencséd van!", "Nincs szerencséd!"],
+        "ugras":[46]
       }
     },
         {
@@ -1811,29 +1864,30 @@
     },
         {
       "sorszam": 197,
-      "szoveg": "",
+      "szoveg": "A folyadékot elfogyasava nem érzel semmi különlegeset Tudtodon kivül azonban - fogyasztottad a Szerencs Elixirjét. Mostan tol kordve valahányszce prira reced , a dobás értéket megtel- hood -el Hogyha még nem letto, most belekóstolnál az elso avegbe, lapozza 139-re Ha a másodikat akarod meginni, lapozz a 150-ec Ha folytatnád az utada detrányba, lapozz a 29-ra.",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[139, 150, 29]
       }
     },
         {
       "sorszam": 198,
-      "szoveg": "",
+      "szoveg": "A két lemmel osszesen 5 Aranytallert t lálsz, meg egy érdekes noviny kit. Ha elég des vagy ahhoz, hogy megodd, vagy úgy stad, valamilyen magikus tulajdonsággal rendelkerk lapuzza 49-re a inkably hagyod, ahol van és az északi njión at t vel, lapezza 152-ra.",
       "akcio":
       {
-        "tipus":"ugrás",
-        "ugras":[84]
+        "tipus":"választás",
+        "megjegyzes": ["Mágikus tulajdonsággal rendelkezel, [1]", "Inkább hagyod, és észak felé mész, [2] "],
+        "ugras":[49, 152]
       }
     },
         {
       "sorszam": 199,
-      "szoveg": "",
+      "szoveg": "Acupat eléggé megszorult, végül azon ban sikerül kinyitnod. Alatta egy kis arsyet találsz abban podig három tárgyat oy gyürüt, egy kis fiolinys folyadékot és ay chajtogatom köpenyt. Ha fel akarod pro halni a gyürüt, lapozz a 119-rc. Hogyha fe send vomia Lopenst, lapozz a 12-ru Amennyiben felhajtanad a folyadékot, le- pozza 71-re. Ha mindezeket a hasznos tár gyakat a követsző utazók hagynád hátra. bezala sapnitt és az ajton kilépsz estal felé tvornál lapoz a No-es",
       "akcio":
       {
         "tipus":"ugrás",
-        "ugras":[84]
+        "ugras":[119,71,12]
       }
     },
     {
