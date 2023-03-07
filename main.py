@@ -16,11 +16,11 @@ def szerencseproba():
     if Jatekos.Elixir:
         if duplakockadobas()+1 <= Jatekos.Luck:
             Jatekos.minuszluck(1)
-            print("Szerencséd volt!")
+            print("Szerencsés voltál!")
             return True
         else:
             Jatekos.minuszluck(1)
-            print("Nem szerencséd volt!")
+            print("Nem volt szerencséd most!")
             return False
     else:
         if duplakockadobas() <= Jatekos.Luck:
@@ -29,7 +29,7 @@ def szerencseproba():
             return True
         else:
             Jatekos.minuszluck(1)
-            print("Nem szerencséd volt!")
+            print("Nem volt szerencséd most")
             return False
 
 
@@ -42,12 +42,12 @@ def igenvagynem():
         elif inp == "nem":
             return False
         else:
-            print("Hibás bemenet")
+            print("Ilyen lehetőség nincsen,helyes szót írj be!!")
 
 def harc(csatamod, name, hp, skill):
     while True:
-        EllensegAttackSTR = duplakockadobas() + skill  # 1.lépés
-        JatekosAttackSTR = duplakockadobas() + Jatekos.Skill  # 2.lépés
+        EllensegAttackSTR = duplakockadobas() + skill  # 1.lépés a játékunkban 
+        JatekosAttackSTR = duplakockadobas() + Jatekos.Skill  # 2.lépés a játékunkban
         if Jatekos.combatblessed:
             JatekosAttackSTR = JatekosAttackSTR + 1
         if csatamod > 0:
@@ -55,20 +55,20 @@ def harc(csatamod, name, hp, skill):
 
         if EllensegAttackSTR < JatekosAttackSTR:
             hp = hp - 2
-            print("Megsebezted az ellenfelet!")
+            print("Megsebezted a méltó ellenfeled!")
             if Jatekos.HP < 1:
-                print("Nem nyertél!")
+                print("Vesztettél sajnos!")
                 Jatekos.gameover()
                 return False
             elif hp < 1:
-                print("Nyertél!")
+                print("!")
                 return True
-            print("Akarsz Szerencsét próbálni?")
+            print("Akarsz szerencsét próbálni azonnal?")
             if not igenvagynem():
-                print("Nem probáltál szerencsét!")
+                print("Gyáva vagy és nem próbálsz szerencsét!")
             else:
                 if szerencseproba():
-                    print("Súlyos sebzést ejtettél!")
+                    print("Merész vagy és súlyos sebet ejtettél!")
                     hp = hp - 2
                 else:
                     print("A seb puszta karcolás!")
@@ -83,9 +83,9 @@ def harc(csatamod, name, hp, skill):
             elif hp < 1:
                 print("Nyertél!")
                 return True
-            print("Akarsz Szerencsét próbálni?")
+            print("Akarsz szerencsét próbálni azonnal?")
             if not igenvagynem():
-                print("Nem probáltál szerencsét!")
+                print("Gyáva vagy és nem próbálsz szerencsét!")
             else:
                 if not szerencseproba():
                     print("Súlyos sebzést Kaptál!")
@@ -103,7 +103,7 @@ Nyert = False
 probaltemar = False
 fellvettekopenyt = False
 csatamod = 0
-input("új játék inditásához gépeljen be bármit és nyomjon entert: ")
+input("Új játék inditásához írj be bármit és nyomd meg az entert: ")
 
 Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)  # HP Luck Skill Gold
 
@@ -259,9 +259,9 @@ while not Nyert:
                     elif inp == "kilepes":
                         exit()
                     else:
-                        print("hibás input")
+                        print("Ilyen opció nincsen")
                 else:
-                    print("hibás input")
+                    print("Ilyen opció nincsen")
 
 if not Nyert:
     print("Vesztettél!")
